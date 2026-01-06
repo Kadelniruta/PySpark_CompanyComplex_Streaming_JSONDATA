@@ -1,0 +1,142 @@
+{
+  "company": {
+    "name":  "TechCorp International",
+    "founded": 2010,
+    "headquarters": {
+      "address": {
+        "street":  "100 Innovation Way",
+        "city": "San Francisco",
+        "state":  "CA",
+        "country": "USA"
+      },
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "departments": [
+      {
+        "id": "DEPT-ENG",
+        "name": "Engineering",
+        "budget": {
+          "annual": 5000000,
+          "currency": "USD",
+          "breakdown": {
+            "salaries": 3500000,
+            "equipment": 800000,
+            "training": 200000,
+            "misc": 500000
+          }
+        },
+        "teams": [
+          {
+            "teamId": "TEAM-FE",
+            "name": "Frontend",
+            "lead": {
+              "employeeId": "EMP-001",
+              "name": "Sarah Chen",
+              "contact": {
+                "email": "sarah. chen@techcorp.com",
+                "slack": "@schen"
+              }
+            },
+            "members":  [
+              {
+                "employeeId": "EMP-002",
+                "name": "John Doe",
+                "role": "Senior Developer",
+                "skills": ["React", "TypeScript", "CSS"],
+                "projects": [
+                  {
+                    "projectId": "PROJ-101",
+                    "name": "Dashboard Redesign",
+                    "allocation": 60
+                  },
+                  {
+                    "projectId": "PROJ-102",
+                    "name": "Mobile App",
+                    "allocation": 40
+                  }
+                ]
+              },
+              {
+                "employeeId":  "EMP-003",
+                "name": "Jane Smith",
+                "role": "Junior Developer",
+                "skills": ["JavaScript", "HTML", "CSS"],
+                "projects": [
+                  {
+                    "projectId": "PROJ-101",
+                    "name": "Dashboard Redesign",
+                    "allocation": 100
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "teamId": "TEAM-BE",
+            "name": "Backend",
+            "lead": {
+              "employeeId": "EMP-004",
+              "name": "Mike Johnson",
+              "contact": {
+                "email": "mike.johnson@techcorp.com",
+                "slack": "@mjohnson"
+              }
+            },
+            "members": [
+              {
+                "employeeId":  "EMP-005",
+                "name": "Lisa Wang",
+                "role": "Staff Engineer",
+                "skills": ["Python", "Go", "PostgreSQL", "Redis"],
+                "projects": [
+                  {
+                    "projectId": "PROJ-103",
+                    "name": "API Gateway",
+                    "allocation": 80
+                  },
+                  {
+                    "projectId": "PROJ-104",
+                    "name": "Data Pipeline",
+                    "allocation": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "employees": {
+        "total": 250,
+        "byRegion": {
+          "northAmerica": 150,
+          "europe": 60,
+          "asia": 40
+        },
+        "byType": {
+          "fullTime": 220,
+          "partTime": 15,
+          "contractor": 15
+        }
+      },
+      "revenue": {
+        "2024": {
+          "q1": 12000000,
+          "q2": 14500000,
+          "q3": 13200000,
+          "q4": 16800000
+        },
+        "2025": {
+          "q1": 15000000,
+          "q2": 17200000,
+          "q3": 16500000,
+          "q4": 19000000
+        }
+      }
+    }
+  }
+}
